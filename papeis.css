@@ -1,0 +1,67 @@
+*{
+    background-color: red;
+}
+
+#galeria{
+    grid-area: galeria;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "f1 f2 f3"
+                         "f4 f5 f6";
+}
+
+#f1{
+    grid-area: f1;
+    
+
+}
+
+#f2{
+    grid-area: f2;
+
+}
+
+
+#f3{
+    grid-area: f3;
+
+}
+
+#f4{
+    grid-area: f4;
+
+}
+
+#f5{
+    grid-area: f5;
+
+}
+
+#f6{
+    grid-area: f6;
+
+}
+
+#galeria div{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+    img{
+        width: 300px;
+        height:300px;
+    }
+
+    @media screen and (max-width:600px) {
+    
+        #galeria{
+            grid-template-columns: 1fr;
+            grid-template-rows: 25vh;
+            grid-template-areas: "f1"
+                                 "f2"
+                                 "f3"
+                                 "f4"
+                                 "f5"
+                                 "f6";}
+    }

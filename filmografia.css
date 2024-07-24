@@ -1,0 +1,12 @@
+*{
+    background-color: red;
+}
+
+body{
+    width: 80%;
+    margin-left: 10%;
+}
+
+p{
+    text-align: justify;
+}
